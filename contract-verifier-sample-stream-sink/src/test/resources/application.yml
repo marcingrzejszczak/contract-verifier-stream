@@ -1,0 +1,4 @@
+stubrunner:
+  work-offline: true
+  stubs.ids: 'org.springframework.cloud:contract-verifier-sample-stream-source'
+
