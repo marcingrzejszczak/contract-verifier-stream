@@ -18,8 +18,6 @@ org.springframework.cloud.contract.verifier.dsl.Contract.make {
 			header('contentType': 'application/json')
 		}
 		// the body of the output message
-		body ([id: $(consumer(9), producer(regex("[0-9]+"))),
-				temperature: "123.45"
-				])
+		body('''{"id":"99","temperature":"123.45"}''')
 	}
 }
