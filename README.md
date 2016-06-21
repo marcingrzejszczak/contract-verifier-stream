@@ -1,4 +1,4 @@
-== What is this?
+# What is this?
 
 This is a repository that contains an example of using Spring Cloud Contracts. It is split into two applications
 
